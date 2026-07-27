@@ -1,0 +1,14 @@
+{
+  "name": "aura-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "tsx src/domain/engine/generate.test.ts && tsx src/data/store.test.ts",
+    "test:engine": "tsx src/domain/engine/generate.test.ts",
+    "test:store": "tsx src/data/store.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

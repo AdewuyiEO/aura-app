@@ -10,5 +10,8 @@
   "devDependencies": {
     "tsx": "^4.0.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "expo": "^57.0.8"
   }
 }
